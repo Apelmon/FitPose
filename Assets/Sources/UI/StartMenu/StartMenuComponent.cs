@@ -1,0 +1,7 @@
+using Entitas;
+using Entitas.CodeGeneration.Attributes;
+
+[Ui]
+[Unique]
+public sealed class StartMenuComponent : IComponent {
+}

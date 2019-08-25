@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dcc799e5ec94ac0b19897669cb3f8b9, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  _failedPopupAdsDelay: 0
+  _shakeDuration: 0
+  _shakeAmount: 0
+  _shakeDecreaseFactor: 0
+  _maxSteerAngle: 55
+  _carCenterOfMass: {x: 0, y: -0.12, z: 0}
+  _carFlyingCenterOfMass: {x: 0, y: 0, z: -0.5}
+  _carSpawnPosition: {x: 0, y: 0.9, z: 20}
+  _switchToBeginTime: 2
+  _beginCameraPosition: {x: 12, y: 17, z: -6}
+  _beginCameraRotation: {x: 50, y: -65, z: 0}
+  _switchToRaceTime: 2
+  _raceCameraPosition: {x: 0, y: 30, z: -25}
+  _raceCameraRotation: {x: 45, y: 0, z: 0}
+  _perfectPrefabs:
+  - {fileID: 2335062693995537637, guid: 5263c80dacb564c6189eb87582ba211d, type: 3}
+  - {fileID: 7277704879292315169, guid: 31e9fb2dbada24ad28a1e5e4c67ca005, type: 3}
+  - {fileID: 4232757635868706436, guid: 66cc63c03430a4eee9e6c71aee647ff8, type: 3}
+  _roadLength: 8
+  _carPrefab: {fileID: 7407751969099007545, guid: 8970c133cb70a41ff85e7519ddd25062,
+    type: 3}
+  _finishLinePrefab: {fileID: 6698588003031547046, guid: 34cfaf72c3e8d4ffe8425a213e957c67,
+    type: 3}
+  _roadParts:
+  - {fileID: 1842656823174925589, guid: 75a8e0970be63457d959d6c6919ca0a9, type: 3}
+  - {fileID: 9067506368643104781, guid: 02398ce03dd0f4f038d312f32a6c3317, type: 3}
+  _roadPatterns:
+  - {fileID: 8989265616148282329, guid: 17769591055834846856d3fe601b7c34, type: 3}
+  - {fileID: 4871737801712325256, guid: d04bd7d40797e4a58ab15d276e74e05b, type: 3}
+  - {fileID: 5380930904099350003, guid: f4ba4e457fa7d4f0e94bc2814a707386, type: 3}
+  - {fileID: 7594339919557545606, guid: 0e9ec7afbc26645daae564f1385fff6a, type: 3}
+  _roadPatternsWithoutSB:
+  - {fileID: 3730976683749971411, guid: 75822d8327d2646ef8da4d3da9a7f69c, type: 3}
+  - {fileID: 6514640848426030617, guid: bef97428bd2d54e7abe868ef72d41027, type: 3}
+  - {fileID: 3922443759467348764, guid: 2e1102633590a4f28b6a8f16c7cda56e, type: 3}
+  _roadPartsDecor:
+  - {fileID: 2236002044411911326, guid: b85a15ae1327f4fc6afeb6c343bb456d, type: 3}
+  - {fileID: 6997887687248841683, guid: 07747aaca54104d3ab8479f4d4597448, type: 3}
+  - {fileID: 7181110911297881034, guid: 5b7592065abd34702ab748e7f09f0c95, type: 3}
+  - {fileID: 5500767921417800856, guid: ecc73781a928b4a12aefa74a3f996183, type: 3}
+  - {fileID: 3052088205601676198, guid: b7af037935bff472e8659a63f1831775, type: 3}
+  _smallObstacles:
+  - {fileID: 4422095485588045289, guid: cd233fe1a3c64449d9c3b5bb49b922cf, type: 3}
+  - {fileID: 4422095485588045289, guid: 77b1c433676614fecaa3c55be04ec894, type: 3}
+  _mediumObstacles:
+  - {fileID: 6879767610313073793, guid: 2fb60e8bc2f1c44809c816a5a9332dc2, type: 3}
+  - {fileID: 1544379907289036276, guid: 5c8cfd68eeb2740a781d995590fea25c, type: 3}
+  _hardObstacles:
+  - {fileID: 6399538513961050509, guid: 427860892615b4c6aaa92258e7bcac7a, type: 3}
+  _boxes:
+  - {fileID: 5774717842569344714, guid: e290ae3b1341944ddbbc870cc44eb1a6, type: 3}
+  - {fileID: 4663209923742724200, guid: ba16a8faf68b64132893d08db2251c61, type: 3}
+  - {fileID: 4525015393642622817, guid: c993f264121be4d9887ab65c31aa19ed, type: 3}

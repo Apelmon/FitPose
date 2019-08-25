@@ -1,0 +1,26 @@
+{
+    "name": "Tests",
+    "references": [
+        "Sources",
+        "Unity.TextMeshPro",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Entitas.dll",
+        "nunit.framework.dll",
+        "Entitas.VisualDebugging.Unity.Editor.dll",
+        "Entitas.VisualDebugging.Unity.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": []
+}

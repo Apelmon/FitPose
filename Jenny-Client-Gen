@@ -1,0 +1,16 @@
+#!/bin/bash
+dir="$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
+cd $dir
+
+ps ax | grep -v grep | grep "Jenny.exe"
+ps ax | grep -v grep | grep "Jenny.exe server"
+if [[ $? -ne 0 ]]; then
+echo "good"
+echo "Jenny server NOT running before ---> "
+echo "Jenny server RUN now ---> "
+osascript -e "tell application \"Terminal\" to do script \"cd $dir; ./Jenny-Server;\""
+sleep 3
+fi
+
+echo "generate components-> "
+mono ./Jenny/Jenny.exe client gen
